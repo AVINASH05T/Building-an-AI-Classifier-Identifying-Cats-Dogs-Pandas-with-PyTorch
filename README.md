@@ -44,3 +44,35 @@ This project involves several key steps:
 
 ##  Project Structure
 
+Building-an-AI-Classifier-Identifying-Cats-Dogs-Pandas-with-PyTorch/
+│
+├── AVINASH_AI_classifier_.ipynb # Main Jupyter Notebook with full code
+├── README.md # Project documentation
+├── requirements.txt # List of required dependencies
+└── data/ # Dataset directory (after download)
+├── train/
+│ ├── cat/
+│ ├── dog/
+│ └── panda/
+└── test/
+├── cat/
+├── dog/
+└── panda/
+
+## Model Overview
+
+Base Model: ResNet18 / VGG16 (Transfer Learning)
+
+Classifier Head:
+
+Fully Connected Layer (256 neurons, ReLU, Dropout 0.5)
+
+Output Layer (3 neurons → Cat, Dog, Panda)
+
+Loss Function: CrossEntropyLoss
+
+Optimizer: Adam (lr=0.001)
+
+Epochs: 10–15
+
+Metric: Accuracy
