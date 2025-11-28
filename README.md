@@ -76,3 +76,9 @@ Optimizer: Adam (lr=0.001)
 Epochs: 10–15
 
 Metric: Accuracy
+
+
+## Conclusion
+
+This project demonstrates the complete pipeline of building a multi-class image classifier using PyTorch, from data preprocessing to model evaluation.
+It showcases the power of transfer learning and provides a strong foundation for future projects involving AI and computer vision.
